@@ -27,7 +27,7 @@ public class Main {
 
     public static void test1() throws IOException {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        People p = (People)ctx.getBean("cutesource");
+        People p = (People)ctx.getBean("xuran");
         System.out.println("服务启动成功!");
         System.in.read(); // 为保证服务一直开着，利用输入流的阻塞来模拟
     }
